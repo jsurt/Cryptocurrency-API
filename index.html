@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cryptocurrency | API</title>
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+     <link rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="mainJS.css">
+     <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+
+<div class="wrap">
+    
+    <div class="inner-wrap">
+
+        <nav role="navigation">
+            <ul class="nav-list">
+                <li class="nav-item home-item"><a href="" class="nav-link home-link">HOME</a></li>
+                <li class="nav-item"><a href="" class="nav-link">ABOUT</a></li>
+                <li class="nav-item"><a href="" class="nav-link">NEWS</a></li>
+                <li class="nav-item"><a href="" class="nav-link selected">TRACKER</a></li>
+            </ul>
+        </nav>
+
+        <header role="heading">
+            <h1 id="head1">Real Time Coin</h1>
+            <h4 id="subhead">Track price and volume in 13 different markets</h4>
+        </header>
+
+        <main role="main">
+            <form id="select-market-form">
+                <select name="markets" id="markets-dropdown">
+                    <option selected>--Select Market--</option>
+                    <option value="0" class="marketOption">ACX</option>
+                    <option value="1" class="marketOption">BitFinex</option>
+                    <option value="2" class="marketOption">Bitstamp</option>
+                    <option value="3" class="marketOption">Bittrex</option>
+                    <option value="4" class="marketOption">Bleutrade</option>
+                    <option value="5" class="marketOption">C-Cex</option>
+                    <option value="6" class="marketOption">Cex.io</option>
+                    <option value="7" class="marketOption">Exmo</option>
+                    <option value="8" class="marketOption">Hitbtc</option>
+                    <option value="9" class="marketOption">Kraken</option>
+                    <option value="10" class="marketOption">Livecoin</option>
+                    <option value="11" class="marketOption">Poloniex</option>
+                    <option value="12" class="marketOption">YoBit</option> 
+                </select>
+                <button type="b" id="btn1">Get data</button>
+            </form>
+            <div id="js-output" hidden>
+                <!--Data output here-->
+                <button id="new-search">Test</button>
+            </div>
+        </main>
+
+    </div>    
+
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>

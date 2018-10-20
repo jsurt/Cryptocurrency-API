@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body {
+    background: #23c2fcdb;
+}
+
+.wrap {
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.inner-wrap, nav {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav {
+    height: 100px;
+    background: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-item {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.nav-item {
+    float: right;
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
+.home-item {
+    float: left;
+}
+
+.selected {
+    color: #ffff00;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    margin-top: 25%;
+    text-decoration: underline;
+    font-size: 120%;
+    font-weight: 100;
+}
+
+#head1, #subhead {
+    text-align: center;
+}
+
+#select-market-form {
+    text-align: center;
+}
+
+#markets-dropdown {
+    height: 40px;
+    width: 350px;
+    padding: 10px;
+    border: none;
+}
+
+button {
+    display: block;
+    margin: auto;
+}

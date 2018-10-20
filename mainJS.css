@@ -1,0 +1,13 @@
+.js-market-name {
+    text-decoration: underline;
+    font-size: 22px;
+    padding-left: 40px;
+}
+
+.js-coin-info {
+    list-style-type: none;
+}
+
+.hidden {
+    display: none;
+}
