@@ -60,8 +60,7 @@ nav {
 header {
     width: 100%;
     margin: auto;
-    margin-top: 25%;
-    text-decoration: underline;
+    margin-top: 20%;
     font-size: 120%;
     font-weight: 100;
 }
@@ -84,4 +83,19 @@ header {
 button {
     display: block;
     margin: auto;
+}
+
+#get-data-button {
+    width: 100px;
+    margin-top: 20px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    background: #ff0000e5;
+}
+
+#get-data-button:hover {
+    cursor: pointer;
+    background: #9c009c;
 }
