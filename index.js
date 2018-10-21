@@ -45,6 +45,7 @@ function getTweets() {
         dataType: 'json',
         url: 'https://api.twitter.com/1.1/search/tweets.json',
         data: {
+            oauth_consumer_key: 'P1kS3WKlnHpDRLyJnbI0skmUB',
             q: 'cats'
         },
         success: function() {
